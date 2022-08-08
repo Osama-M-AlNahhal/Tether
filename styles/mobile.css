@@ -1,0 +1,144 @@
+body {
+    background-color: var(--color-1);
+}
+
+
+.navbar {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+
+    z-index: 10;
+
+    position: fixed;
+    top: 0;
+    background-color: var(--color-1);
+}
+
+
+
+.navbar-inner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    padding-left: 5vw;
+
+    
+}
+
+.logo-and-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+    gap: 0.5rem;
+
+    width: fit-content;
+}
+.name {
+    line-height: 2.5rem;
+    padding: 1rem 0;
+    font-size: 24px;
+}
+.logo-container {
+    padding: 1rem 0;
+}
+.logo-icon {
+    width: 2rem;
+    height: 2rem;
+    fill: var(--color-4);
+}
+
+.desktop-navbar {
+    display: none;
+}
+
+.hamburger-btn {
+
+    background-color: inherit;
+    border: none;
+
+    cursor: pointer;
+
+    position: absolute;
+    top: 2rem;
+    right: 5vw;
+}
+
+.hamburger-icon-container {
+}
+
+.hamburger-icon {
+    width: 2rem;
+    height: 2rem;
+    fill: var(--color-3);
+}
+
+
+
+.navbar-shadow {
+    box-shadow: 0px -5px 25px var(--color-3);
+}
+
+.navbar-links {
+    display: flex;
+    flex-direction: column;
+
+    gap: 2rem;
+    overflow: hidden;
+
+}
+
+.navbar-link {
+    padding: 1.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+.links-group-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.links-group-2 {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.login {
+    align-self: center;
+}
+
+.signup {
+    width: fit-content;
+    padding: 1rem 2rem;
+}
+
+.hidden-navbar-section {
+    display: none;
+    clip-path: circle(0% at 90% 10%);
+    transition: all 0.5s ease-in-out;
+    
+}
+.navbar-expanded {
+    display: inherit;
+    clip-path: circle(210% at 90% 10%);
+    margin-bottom: 3rem;
+    scroll-behavior: unset;
+
+    height: 75vh;
+}
+
