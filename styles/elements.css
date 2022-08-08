@@ -1,0 +1,31 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul > li {
+    width: fit-content;
+    text-align: center;
+
+}
+
+.green-btn {
+    padding: 1rem 2rem;
+    background-color: var(--color-3);
+    border-radius: 5px;
+}
+
+.navbar-link {
+    text-decoration: none;
+}
+
+.selected-navbar-link {
+    color: var(--color-5);
+    background-color: var(--color-3);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

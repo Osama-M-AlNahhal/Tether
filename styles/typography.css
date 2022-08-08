@@ -1,0 +1,67 @@
+body {
+    font-family: 'Orbitron', 'Baloo 2', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------
+    text size
+    ------------------ */
+.font-size-1 {
+    font-size: 1rem;
+}
+.font-size-1-5 {
+    font-size: 1.5rem;
+}
+.font-size-2 {
+    font-size: 2rem;
+}
+.font-size-2-5 {
+    font-size: 2.5rem;
+}
+.font-size-3 {
+    font-size: 3rem;
+}
+.font-size-3-5 {
+    font-size: 3.5rem;
+}
+.font-size-4 {
+    font-size: 4rem;
+}
+.font-size-4-5 {
+    font-size: 4.5rem;
+}
+.font-size-5 {
+    font-size: 5rem;
+}
+
+/* ------------------
+    text thickness
+    ------------------ */
+.font-thin { 
+    font-weight: 400;
+}
+.font-normal {
+    font-weight: 600;
+}
+.font-bold {
+    font-weight: 900;
+}
+
+
+
+/* ------------------
+    text color
+    ------------------ */
+.white-text {
+    color: var(--color-4);
+}
+.gray-text {
+    color: var(--color-6);
+}
+.green-text {
+    color: var(--color-3);
+}

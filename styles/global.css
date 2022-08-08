@@ -1,0 +1,24 @@
+:root {
+    --color-1: #070c0e;
+    --color-2: #0c1a20;
+    --color-3: #99e919;
+    --color-4: #fff;
+    --color-5: #000;
+    --color-6: #666666;
+}
+
+body, html {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
