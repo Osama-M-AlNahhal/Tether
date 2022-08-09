@@ -75,5 +75,24 @@
         padding: 1rem 2rem;
     }
 
+    .hero-1 {
+        padding: min(15vw,15vh);
+
+        gap: 5vw;
+        
+    }
+
+    .hero-1-title {
+        font-size: xxx-large;
+    }
+
+    .hero-1-desc {
+        font-size: larger;
+    }
+
+    .hero-1 .content-container {
+        max-width: 40vw;
+    }
+
 
 }
