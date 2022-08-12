@@ -1,5 +1,6 @@
 body {
     font-family: 'Orbitron', 'Baloo 2', sans-serif;
+    /* Mukta font is also pretty clean */
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -64,4 +65,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .green-text {
     color: var(--color-3);
+}
+.dark-text {
+    color: var(--color-1);
 }

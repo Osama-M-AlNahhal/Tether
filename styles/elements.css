@@ -11,9 +11,14 @@ ul > li {
 }
 
 .green-btn {
-    padding: 1rem 2rem;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    width: 10rem;
+    padding: 0.75rem 1.75rem;
     background-color: var(--color-3);
     border-radius: 5px;
+    width: fit-content;
 }
 
 .navbar-link {
@@ -28,4 +33,59 @@ ul > li {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.hero-1 .learn-more-btn {
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;   
+}
+
+.hero-1 .circle {
+    transition: all, 0.45s, cubic-bezier(0.65,0,.076,1);
+    position: relative;
+    display: block;
+    margin: 0;
+
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+
+    background: var(--color-2);
+}
+
+.hero-1 .arrow {
+    width: 1rem;
+    height: 1rem;
+
+    transition: all, 0.45s, cubic-bezier(0.65,0,.076,1);
+
+    position: absolute;
+    top: 0.8rem;
+    left: 1.1rem;
+    margin: 0;
+
+    fill: var(--color-3);
+}
+
+.learn-more-btn .button-text {
+    width: 7rem;
+
+    height: 3rem;
+    line-height: 3rem;
 }

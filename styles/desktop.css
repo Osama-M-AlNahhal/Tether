@@ -75,5 +75,85 @@
         padding: 1rem 2rem;
     }
 
+    .hero-1 {
+        padding: min(15vw,15vh);
+
+        gap: 5vw;
+
+        overflow: hidden;
+        
+    }
+
+
+    .hero-1-title {
+        font-size: xxx-large;
+        line-height: 1.1;
+    }
+
+    .hero-1-desc {
+        font-size: larger;
+    }
+
+    .hero-1 .content-container {
+        max-width: 27rem;
+    }
+
+    .hero-1 {
+        margin-top: 2.5rem;
+        padding: 7rem;
+    }
+    .hero-grid {
+        height: 35rem;
+    }
+
+    .hero-overlay {
+        height: 35rem;
+    }
+
+    .hero-1 .cards-container {       
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .card-1 {
+        width: 12rem; 
+        height: 10rem;
+
+        top: 0%;
+        left: 5%;
+    }
+
+    .card-2 {
+        width: 6.7rem; 
+        height: 4.6rem;
+
+        top: 12%;
+        right: -5%;
+    }
+
+    .card-3 {
+        width: 17rem; 
+        height: 9.3rem;
+
+        top: 20%;
+        right: 10%;
+    }
+
+    .card-4 {
+        width: 9.3rem; 
+        height: 3.3rem;
+
+        bottom: 15%;
+        right: 10%;
+    }
+
+    .card-5 {
+        width: 18rem; 
+        height: 9.6rem;
+
+        bottom: 10%;
+        left: -5%;
+    }
+
 
 }
