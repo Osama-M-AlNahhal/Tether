@@ -1,9 +1,19 @@
 @media screen and (min-width:450px) {
 
+    .hero-grid {
+        height: 25rem;
+    }
+
+    .hero-overlay {
+        height: 25rem;
+    }
+
     .hero-1 .content-container {
         gap: 1.5rem;
         margin-top: 5vw;
     }
+
+
 
     .hero-1-title {
         font-size: xx-large;
@@ -21,9 +31,8 @@
 
     .card-1 {
         width: 9rem; 
-        /* 12 */
         height: 7.5rem;
-        /* 10 */
+
         z-index: 4;
         
         box-shadow: 0px 10px 30px 5px var(--color-1);
@@ -111,8 +120,8 @@
         box-shadow: 0px 10px 30px 5px var(--color-1);
 
         position: absolute;
-        bottom: 15%;
-        right: 10%;
+        bottom: 5%;
+        right: 5vw;
 
         background-color: var(--color-3);
 
@@ -142,8 +151,8 @@
         box-shadow: 0px 10px 30px 5px var(--color-1);
 
         position: absolute;
-        bottom: 7%;
-        left: 4%;
+        bottom: 0%;
+        left: 0%;
 
         background-color: var(--color-2);
 
@@ -197,6 +206,8 @@
         font-weight: 100;
     }
 
+
+
     
 
 }
@@ -209,7 +220,7 @@
         padding: min(10vw,10vh);
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
 
         gap: 0;
@@ -220,6 +231,14 @@
         position: relative;
     }
 
+    .hero-grid {
+        height: 25rem;
+    }
+
+    .hero-overlay {
+        height: 25rem;
+    }
+
     .hero-1-title {
         line-height: 1.5;
         font-size: xx-large;
@@ -227,7 +246,7 @@
 
     .hero-1 .call-to-action {
         flex-direction: row;
-        gap: 3vw;
+        gap: 2rem;
         max-width: 25rem;
     }
 
@@ -243,7 +262,7 @@
         display: flex;
 
         width: 50vw;
-        height: 50vh;
+        height: 17rem;
         position: relative;
 
         margin: 1rem;
