@@ -1,3 +1,12 @@
+@media screen and (min-width:360px) {
+    .hero-grid {
+        height: 28rem;
+    }
+    .hero-overlay {
+        height: 28rem;
+    }
+}
+
 @media screen and (min-width:450px) {
 
     .hero-grid {
@@ -24,11 +33,6 @@
         flex-direction: row;
         gap: 5vw;
     }
-
-    
-
-    
-
     .card-1 {
         width: 9rem; 
         height: 7.5rem;
@@ -204,12 +208,14 @@
         line-height: 1;
         font-size: small;
         font-weight: 100;
+    }   
+
+}
+
+@media screen and (min-width:550px) {
+    .hero-2 {
+        margin-top: 10rem;
     }
-
-
-
-    
-
 }
 
 
@@ -227,8 +233,11 @@
 
         padding-right: 5vw;
         margin-top: 5.5rem;
+        margin-bottom: 0;
 
         position: relative;
+
+
     }
 
     .hero-grid {
@@ -272,6 +281,33 @@
     .hero-1-desc {
         font-size: small;
     }
+
+    .hero-2 {
+        margin-top: 3rem;
+    }
+
+    .hero-2-container {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        padding: 1rem 2rem;
+        
+    }
+
+    .hero-2-title {
+        font-size: x-large;
+    }
+
+    .hero-2-item-2 {
+        max-width: 50%;
+    }
+
+
+    .hero-2-description {
+        font-size: small;
+    }
+    
 
     
 

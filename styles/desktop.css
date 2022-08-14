@@ -155,5 +155,21 @@
         left: -5%;
     }
 
+    .hero-2 {
+        margin-top: 0;
+       
+    }
+
+    .hero-2-container {
+        max-width: 50rem;
+    }
+    .hero-2-item-1 {
+        max-width: 25rem;
+    }
+
+    .hero-2-item-2 {
+        max-width: 25rem;
+    }
+
 
 }
