@@ -200,7 +200,7 @@ body {
 
 .hero-2 {
     width: 100%;
-    margin-top: 4rem;
+    margin-top: 5rem;
     margin-bottom: 1rem;
     display: flex;
     justify-content: center;
@@ -273,5 +273,85 @@ body {
 
     fill: var(--color-3);
 }
+
+.hero-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 2rem;
+    padding: min(10vw,10vh);
+    height: fit-content;
+}
+
+.hero-3 .hero-grid, .hero-3 .hero-overlay {
+    transform: rotate(180deg);
+    height: 30rem;
+}
+
+.hero-3 .hero-grid {
+    border-top: 2px solid var(--color-4);
+}
+
+.hero-3-title {
+    font-size: xx-large;
+}
+
+.hero-3 .cards-container {
+    display: none;
+}
+
+.hero-3 .content-container {
+    margin-top: 0;
+    padding-top: 7rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+
+    max-width: 35rem;
+
+
+    position: relative;
+    z-index: 3;
+}
+
+.hero-3 .percentages-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.hero-3 .percentage-1 p:nth-child(1){
+    font-size: xx-large;
+    font-weight: bold;
+} 
+.hero-3 .percentage-1 p:nth-child(2){
+    font-size: x-small;
+} 
+
+.hero-3 .percentage-2 p:nth-child(1) {
+    font-size: xx-large;
+    font-weight: bold;
+} 
+.hero-3 .percentage-2 p:nth-child(2) {
+    font-size: x-small;
+}
+
+.hero-3 .hero-overlay, .hero-3 .hero-grid {
+    left: 0;
+    height: 28rem;
+    margin-top: 8rem;
+}
+
+.hero-3-title-br {
+    display: none;
+}
+
 
 

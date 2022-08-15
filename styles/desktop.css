@@ -157,7 +157,7 @@
 
     .hero-2 {
         margin-top: 0;
-       
+       margin-bottom: 3rem;
     }
 
     .hero-2-container {
@@ -170,6 +170,43 @@
     .hero-2-item-2 {
         max-width: 25rem;
     }
+
+    .hero-3 {
+        padding: 1rem;
+        align-items: center;
+        gap: 5vw;
+        
+    }
+    .hero-3 .content-container {
+        margin-top: 0;
+        padding-top: 0;
+        max-width: 27rem;
+    }
+
+    .card-6 {
+        scale: 0.6;
+        top: -1.5rem;
+        right: -25%;
+    }
+
+    .card-7 {
+        scale: 0.6;
+    }
+
+    .card-8 {
+        scale: 1.2;
+    }
+    .hero-3-title {
+        font-size: xx-large;
+    }
+
+    .hero-3-description {
+        font-size: larger;
+    }
+    .hero-3-title-br {
+        display: block;
+    }
+
 
 
 }
