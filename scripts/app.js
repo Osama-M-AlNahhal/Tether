@@ -1,6 +1,6 @@
 /* --------------------------------------------------
 				navbar functionality
-	-------------------------------------------------- */
+-------------------------------------------------- */
 	const body = document.querySelector('body');
 	const toggleNavbarBtn = document.querySelector('.hamburger-btn');
 	const hiddenNavbarPart = document.querySelector('.hidden-navbar-section');
@@ -24,8 +24,6 @@
 
 	function expandNavbar() {
 
-		//await new Promise(resolve => setTimeout(resolve, 200));
-
 		hiddenNavbarPart.classList.toggle('navbar-expanded');
 		if (hiddenNavbarPart.classList.contains('navbar-expanded')) {
 			navbarInnerContainer.classList.remove('navbar-shadow');
@@ -37,4 +35,17 @@
 
 		body.classList.toggle('stop-scrolling');
 	}
+
+
+	const ANIMATIONS = {
+		
+	}
+
+/* --------------------------------------------------
+				cards animations
+-------------------------------------------------- */
+const cardsGroup1 = querySelectorAll('.cards-container')
+let tl1 = gspa.timeline();
+tl1.from(cardsGroup1, {duration: 2, x: 25, ease: "linear", opacity: 0, rotationX:20, stagger: 1});
+
 

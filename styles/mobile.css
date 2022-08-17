@@ -353,5 +353,90 @@ body {
     display: none;
 }
 
+.scrolling-section {
+    width: 100vw;
+    overflow: hidden;
+    margin-top: 5rem;
+    max-width: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroller-container {
+    width: 80%;
+    height: fit-content;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding-left: 10vw;
+
+    gap: 1rem;
+}
+
+.scrolling-cards {
+    width: fit-content;
+
+    padding: 1rem 2rem;
+
+
+    background-color: var(--color-2);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 0.5rem;
+    position: relative;
+
+    border-radius: 12px;
+}
+
+.scrolling-cards .info-container {
+    width: 9rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.brand-name {
+    font-size: normal;
+}
+
+.brand img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.info-container .value-change, .info-container .value {
+    font-size: small;
+    width: fit-contents;
+}
+.graph {
+    margin-top: 1rem;
+    width: 10rem;
+}
+.graph svg {
+    width: 100%;
+    height: 100%;
+    fill: var(--color-3);
+}
+
 
 
